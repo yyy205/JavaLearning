@@ -5,6 +5,10 @@ public class Test {
         Swim s1 = () -> {
             System.out.println("游泳kuai");
         };
-        s1.swimming();
+        startSwim(s1);
+    }
+
+    private static void startSwim(Swim s) {
+        s.swimming();
     }
 }
